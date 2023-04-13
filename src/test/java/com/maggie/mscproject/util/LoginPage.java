@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends PageMessages {
 
     private WebDriver driver;
-    private HomePage homePage;
 
     @FindBy(id = "email")
     private WebElement emailField;
@@ -20,9 +19,6 @@ public class LoginPage extends PageMessages {
     @FindBy(id = "loginButton")
     private WebElement loginButton;
 
-    @FindBy(css = "div.alert.alert-danger.ng-scope")
-    private WebElement errorMessage;
-
     @FindBy(xpath = "/html/body/div[1]/div/a")
     @CacheLookup
     private WebElement cookies;
@@ -30,8 +26,6 @@ public class LoginPage extends PageMessages {
     @FindBy(xpath = "//*[@id=\"mat-dialog-0\"]/app-welcome-banner/div/div[2]/button[2]")
     @CacheLookup
     private WebElement welcomeDismiss;
-
-
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -45,6 +39,7 @@ public class LoginPage extends PageMessages {
     public void dismissWelcome () {
         welcomeDismiss.click();
     }
+
     public void navigateToLoginPage(String url) {
         driver.get(url);
     }
@@ -56,14 +51,5 @@ public class LoginPage extends PageMessages {
 
     public void clickLogin() {
         loginButton.click();
-    }
-
-    public void verifyLoginPage() {
-        homePage = new HomePage(driver);
-        homePage.validateHomePage();
-    }
-
-    public String getErrorMessage() {
-        return errorMessage.getText();
     }
 }
