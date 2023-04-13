@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maggie/mscproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maggie/mscproject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefXSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefXSS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AdminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AlertPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AlertPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/PageMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/PageMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/RegPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/RegPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/XSSInjection.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/XSSInjection.feature" afterDir="false" />
-    </list>
+    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

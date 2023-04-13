@@ -1,0 +1,20 @@
+Index: src/test/java/com/maggie/mscproject/util/HomePage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.maggie.mscproject.util;\r\n\r\nimport org.junit.jupiter.api.Assertions;\r\nimport org.openqa.selenium.Keys;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.CacheLookup;\r\nimport org.openqa.selenium.support.FindBy;\r\nimport org.openqa.selenium.support.PageFactory;\r\n\r\n\r\npublic class HomePage extends PageMessages{\r\n    private WebDriver driver;\r\n\r\n    @FindBy(xpath = \"//*[@id=\\\"mat-menu-panel-0\\\"]/div/button[1]/span\")\r\n    private WebElement accountDetail;\r\n\r\n    @FindBy(xpath = \"//i[contains(text(),'account_circle')]\")\r\n    private WebElement accountIcon;\r\n\r\n    @FindBy(xpath = \"//span[contains(text(),'Your Basket')]\")\r\n    private WebElement basket;\r\n\r\n    @FindBy(id = \"searchQuery\")\r\n    private WebElement searchBtn;\r\n    @FindBy(id = \"mat-input-0\")\r\n    private WebElement searchField;\r\n\r\n\r\n\r\n    @FindBy(xpath = \"//*[@id=\\\"mat-dialog-0\\\"]/app-welcome-banner/div/div[2]/button[2]\")\r\n    @CacheLookup\r\n    private WebElement welcomeDismiss;\r\n\r\n    public HomePage(WebDriver driver) {\r\n        this.driver = driver;\r\n        PageFactory.initElements(driver, this);\r\n    }\r\n\r\n\r\n    public void allowCookies () {\r\n        HomePage homePage = new HomePage(driver);\r\n        homePage.cookies.click();\r\n    }\r\n\r\n    public void dismissWelcome () {\r\n        welcomeDismiss.click();\r\n    }\r\n\r\n    public void searchWebsite (String keyword) throws InterruptedException {\r\n        searchBtn.click();\r\n        Thread.sleep(3000);\r\n        searchField.sendKeys(keyword);\r\n        Thread.sleep(1000);\r\n        searchField.sendKeys(Keys.ENTER);\r\n    }\r\n\r\n    public void checkDetails(String details) {\r\n        Assertions.assertTrue(accountDetail.getText().contains(details));\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/maggie/mscproject/util/HomePage.java b/src/test/java/com/maggie/mscproject/util/HomePage.java
+--- a/src/test/java/com/maggie/mscproject/util/HomePage.java	(revision b155792efc69d41074f1e90c817a82f0403208fe)
++++ b/src/test/java/com/maggie/mscproject/util/HomePage.java	(date 1681393963449)
+@@ -36,8 +36,7 @@
+         this.driver = driver;
+         PageFactory.initElements(driver, this);
+     }
+-
+-
++    
+     public void allowCookies () {
+         HomePage homePage = new HomePage(driver);
+         homePage.cookies.click();
