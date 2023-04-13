@@ -20,11 +20,7 @@ public class StepDefAll {
         List<String>optionsList = Arrays.asList("--remote-allow-origins=*", "--headless");
         options.addArguments(optionsList);
         options.setHeadless(true);
-
-        //WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
-        //driver.manage().window().maximize();
-       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @After
