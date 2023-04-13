@@ -17,7 +17,7 @@ public class AdminPage {
     @FindBy(xpath = "//mat-row[6]//mat-cell[4]//button[contains(@class,'mat-button')]")
     private WebElement delComment;
 
-    @FindBy(xpath = "//app-administration/mat-card/div/div[2]/div/mat-table/mat-row[6]")
+    @FindBy(xpath = "//body//app-root//mat-row[6]")
     private WebElement customerFeedbackToBeDeleted;
 
     @FindBy(xpath = "//div[@class='customer-container']//div[@class='mat-paginator-range-actions']//div[1]")
