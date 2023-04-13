@@ -17,7 +17,7 @@ public class StepDefAll {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        List<String>optionsList = Arrays.asList("--remote-allow-origins=*", "--headless");
+        List<String>optionsList = Arrays.asList("--remote-allow-origins=*", "--headless", "--disable-dev-shm-usage", "--no-sandbox", "--disable-gpu");
         options.addArguments(optionsList);
         options.setHeadless(true);
         driver = new ChromeDriver(options);
