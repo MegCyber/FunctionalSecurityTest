@@ -5,8 +5,6 @@ import com.maggie.mscproject.util.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
 public class StepDefXSS {
@@ -17,7 +15,7 @@ public class StepDefXSS {
 
     @Given("that I am on the Juice Shop home page")
     public void navigateToHomePage() {
-        driver.get("http://localhost:3000/#/");
+        driver.get("http://20.208.138.194:3000/#/");
         homePage = new HomePage(driver);
         homePage.allowCookies();
         homePage.dismissWelcome();

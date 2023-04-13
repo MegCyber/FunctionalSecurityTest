@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="" />
+    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="i dont">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefXSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefXSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/util/RegPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Assertion_for_deletion_worked_on" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,7 +58,7 @@
       <recent name="com.maggie.mscproject" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Attempt login with injection, Access the administration page and Deleting customer feedback">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Injection" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Injection.feature" />
@@ -140,9 +155,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Attempt login with injection, Access the administration page and Deleting customer feedback" />
         <item itemvalue="Cucumber Java.Feature: Injection" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Access the administration page and Deleting customer feedback" />
         <item itemvalue="Cucumber Java.Scenario: Verify that XSS vulnerability exists in Juice Shop" />
       </list>
@@ -157,6 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680296726860</updated>
     </task>
+    <task id="LOCAL-00001" summary="i dont">
+      <created>1681395162647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681395162648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,5 +192,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="i dont" />
+    <option name="LAST_COMMIT_MESSAGE" value="i dont" />
   </component>
 </project>

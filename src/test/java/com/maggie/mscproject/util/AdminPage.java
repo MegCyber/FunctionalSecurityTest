@@ -1,5 +1,6 @@
 package com.maggie.mscproject.util;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +20,9 @@ public class AdminPage {
     @FindBy(xpath = "//app-administration/mat-card/div/div[2]/div/mat-table/mat-row[6]")
     private WebElement customerFeedbackToBeDeleted;
 
+    @FindBy(xpath = "//div[@class='customer-container']//div[@class='mat-paginator-range-actions']//div[1]")
+    private WebElement customerFeedbackCount;
+
     @FindBy(xpath = "//app-administration/mat-card/div/div[2]/div/mat-table")
     private WebElement customerFeedbacks;
 
@@ -28,15 +32,20 @@ public class AdminPage {
     }
 
     public boolean isAdminPageDisplayed() {
-        return driver.getCurrentUrl().equals("https://juice-shop.herokuapp.com/#/administration")
+        return driver.getCurrentUrl().equals("http://20.208.138.194:3000/#/administration")
                 && adminDashboard.isDisplayed();
     }
 
     public boolean isCustomerFeedbackDisplayed() {
         return customerFeedbacks.isDisplayed();
     }
-    public String customerFeedbacks() {
-        return customerFeedbacks.getText();
+
+    public int customerFeedbacks() {
+        String str = customerFeedbackCount.getText();
+        String[] parts = str.split(" of ");
+        String lastPart = parts[1];
+        int expectedCount = Integer.parseInt(lastPart);
+        return expectedCount;
     }
 
     public boolean isThisCustomerFeedbackDisplayed() {
