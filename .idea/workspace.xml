@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="This last commit">
+    <list default="true" id="664ca5e0-f639-4044-b8ae-941c3a8ec74b" name="Changes" comment="This last commit2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/maggie/mscproject/test/StepDefInjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Injection.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681396649312</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="This last commit2">
+      <created>1681412216684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681412216684</updated>
+    </task>
+    <task id="LOCAL-00004" summary="This last commit2">
+      <created>1681412297786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681412297786</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i dont" />
     <MESSAGE value="This last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="This last commit" />
+    <MESSAGE value="This last commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="This last commit2" />
   </component>
 </project>
