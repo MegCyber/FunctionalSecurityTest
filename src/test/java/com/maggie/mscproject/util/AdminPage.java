@@ -1,6 +1,5 @@
 package com.maggie.mscproject.util;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -44,8 +43,7 @@ public class AdminPage {
         String str = customerFeedbackCount.getText();
         String[] parts = str.split(" of ");
         String lastPart = parts[1];
-        int expectedCount = Integer.parseInt(lastPart);
-        return expectedCount;
+        return Integer.parseInt(lastPart);
     }
 
     public boolean isThisCustomerFeedbackDisplayed() {
