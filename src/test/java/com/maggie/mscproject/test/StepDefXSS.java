@@ -18,7 +18,6 @@ public class StepDefXSS {
         driver.get("http://20.208.138.194:3000/#/");
         homePage = new HomePage(driver);
         homePage.allowCookies();
-        homePage.dismissWelcome();
     }
 
     @When("I search for a product with an XSS payload {string}")
@@ -32,8 +31,6 @@ public class StepDefXSS {
         alertPage = new AlertPage(driver);
         alertPage.confirmAlertMessage();
     }
-
-
 }
 
 
