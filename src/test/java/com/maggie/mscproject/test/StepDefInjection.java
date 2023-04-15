@@ -53,9 +53,7 @@ public class StepDefInjection {
     @Then("^I attempt to delete the a customer feedback$")
     public void attemptToDeleteCustomerFeedback() throws InterruptedException {
         Assert.assertTrue(adminPage.isCustomerFeedbackDisplayed());
-        //Assert.assertTrue(adminPage.isThisCustomerFeedbackDisplayed());
         allDisplayedCommentBeforeDeletion = adminPage.customerFeedbacks();
-        //commentToBeDeleted = adminPage.customerComment();
         Thread.sleep(3000);
         adminPage.deleteCustomerFeedback();
         Thread.sleep(3000);
