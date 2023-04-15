@@ -23,7 +23,7 @@ public class StepDefInjection {
         loginPage = new LoginPage(driver);
         loginPage.allowCookies();
         loginPage.dismissWelcome();
-        driver.navigate().to(url);
+        driver.navigate().to("http://20.208.138.194:3000/#/login");
     }
 
 
