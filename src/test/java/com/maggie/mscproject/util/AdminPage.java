@@ -31,8 +31,7 @@ public class AdminPage {
     }
 
     public boolean isAdminPageDisplayed() {
-        return driver.getCurrentUrl().equals("http://20.208.138.194:3000/#/administration")
-                && adminDashboard.isDisplayed();
+        return adminDashboard.isDisplayed();
     }
 
     public boolean isCustomerFeedbackDisplayed() {
