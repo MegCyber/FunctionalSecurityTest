@@ -15,6 +15,7 @@ public class StepDefXSS {
 
     @Given("that I am on the Juice Shop home page")
     public void navigateToHomePage() {
+        driver.get("http://20.208.138.194:3000/#/");
         homePage = new HomePage(driver);
         homePage.allowCookies();
         homePage.dismissWelcome();
