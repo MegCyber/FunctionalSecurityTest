@@ -14,10 +14,12 @@ public class StepDefXSS {
     AlertPage alertPage;
 
     @Given("that I am on the Juice Shop home page")
-    public void navigateToHomePage() {
+    public void navigateToHomePage() throws InterruptedException {
         driver.get("http://20.208.138.194:3000/#/");
+        Thread.sleep(2000);
         homePage = new HomePage(driver);
         homePage.allowCookies();
+        homePage.dismissWelcome();
     }
 
     @When("I search for a product with an XSS payload {string}")
